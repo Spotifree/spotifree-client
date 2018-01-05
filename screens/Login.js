@@ -2,8 +2,16 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView, KeyboardAvoidingView } from 'react-native';
 import { connect } from 'react-redux'
 import axios from 'axios'
+import { NavigationActions } from 'react-navigation'
 
-import { login as loginAction } from '../actions/users'
+import { login } from '../actions/users'
+
+const redirectHome = NavigationActions.reset({
+  index: 0,
+  actions: [
+    NavigationActions.navigate({ routeName: 'Home'}),
+  ]
+})
 
 class Login extends Component {
 	static navigationOptions = {
@@ -38,6 +46,12 @@ class Login extends Component {
       username: this.state.username,
       password: this.state.password
     })
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if(nextProps.isLogin) {
+      this.props.navigation.dispatch(redirectHome)
+    }
   }
 	
 	render() {
@@ -94,15 +108,15 @@ const styles = StyleSheet.create({
 })
 
 function mapStateToProps(state) {
-  console.log('ini di login========', state)
+  console.log(state)
   return {
-    userLogin: ''
+    isLogin: state.userReducers.isLogin
   }
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    login: (input) => dispatch(loginAction(input))
+    login: (input) => dispatch(login(input))
   }
 }
 

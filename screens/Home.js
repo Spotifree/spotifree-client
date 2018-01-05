@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Button, TouchableHighlight } from 'react-native';
 import { NavigationActions } from 'react-navigation'
+import { connect } from 'react-redux'
 
 import Menu from './Menu'
 import Login from './Login'
@@ -12,7 +13,7 @@ const redirectLogin = NavigationActions.reset({
   ]
 })
 
-export default class Home extends Component {
+class Home extends Component {
 	static navigationOptions = {
 		title: 'Home',
 		headerLeft: null,
@@ -21,8 +22,8 @@ export default class Home extends Component {
 	}
 	
 	componentWillMount() {
-		let login = false
-		if(!login) {
+		let isLogin = this.props.isLogin
+		if(!isLogin) {
 			this.props.navigation.dispatch(redirectLogin)
 		}
 	}
@@ -46,3 +47,12 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 	}
 })
+
+
+function mapStateToProps(state) {
+	return {
+		isLogin: state.userReducers.isLogin
+	}
+}
+
+export default connect(mapStateToProps, null)(Home)

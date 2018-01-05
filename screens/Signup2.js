@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView, KeyboardAvoidingView } from 'react-native';
+import { connect } from 'react-redux'
 
-export default class Welcome extends Component {
+import { signup } from '../actions/users'
+
+class Signup2 extends Component {
 	static navigationOptions = {
 		headerLeft: null,
 		headerStyle: { height: 24, backgroundColor: '#333333' },
@@ -30,9 +33,15 @@ export default class Welcome extends Component {
   }
 
   submitHandle() {
-    console.log(this.state)
+    this.props.signup2({
+      email: this.props.userData.email,
+      username: this.props.userData.username,
+      password: this.props.userData.password,
+      first_name: this.state.firstname,
+      last_name: this.state.lastname
+    })
   }
-	
+  
 	render() {
     return (
       <KeyboardAvoidingView
@@ -84,3 +93,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   }
 })
+
+function mapStateToProps(state) {
+  return {
+    userData: state.userReducers.signup
+  }
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    signup2: (input) => dispatch(signup(input))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Signup2)
