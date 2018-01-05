@@ -8,7 +8,14 @@ export default class Home extends Component {
 		headerLeft: null,
 		headerStyle: { paddingTop: 24, backgroundColor: '#333333', height: 80 },
 		headerTitleStyle: { alignSelf: 'center', color: '#FFFFFF', fontSize: 15 }
-  }
+	}
+	
+	componentWillMount() {
+		let login = false
+		if(!login) {
+			this.props.navigation.navigate('Welcome')
+		}
+	}
 	
 	render() {
     return (
