@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView, KeyboardAvoidingView } from 'react-native';
+import { connect } from 'react-redux'
+import axios from 'axios'
 
-export default class Welcome extends Component {
+import { login as loginAction } from '../actions/users'
+
+class Login extends Component {
 	static navigationOptions = {
 		headerLeft: null,
 		headerStyle: { height: 24, backgroundColor: '#333333' },
@@ -30,7 +34,10 @@ export default class Welcome extends Component {
   }
 
   submitHandle() {
-    console.log(this.state)
+    this.props.login({
+      username: this.state.username,
+      password: this.state.password
+    })
   }
 	
 	render() {
@@ -85,3 +92,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   }
 })
+
+function mapStateToProps(state) {
+  console.log('ini di login========', state)
+  return {
+    userLogin: ''
+  }
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    login: (input) => dispatch(loginAction(input))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login)

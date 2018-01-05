@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Button, TouchableHighlight } from 'react-native';
+import { NavigationActions } from 'react-navigation'
+
 import Menu from './Menu'
+import Login from './Login'
+
+const redirectLogin = NavigationActions.reset({
+  index: 0,
+  actions: [
+    NavigationActions.navigate({ routeName: 'Welcome'}),
+  ]
+})
 
 export default class Home extends Component {
 	static navigationOptions = {
@@ -13,7 +23,7 @@ export default class Home extends Component {
 	componentWillMount() {
 		let login = false
 		if(!login) {
-			this.props.navigation.navigate('Welcome')
+			this.props.navigation.dispatch(redirectLogin)
 		}
 	}
 	
