@@ -1,14 +1,49 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { StackNavigator } from 'react-navigation'
+
+import HomeScreen from './screens/Home'
+import BrowseScreen from './screens/Browse'
+import SearchScreen from './screens/Search'
+import CollectionScreen from './screens/Collection'
+import WelcomeScreen from './screens/Welcome'
+import Signup1Screen from './screens/Signup1'
+import Signup2Screen from './screens/Signup2'
+import LoginScreen from './screens/Login'
+
+const AppNavigator = StackNavigator({
+  Login: {
+    screen: LoginScreen
+  },
+  Signup1: {
+    screen: Signup1Screen
+  },
+  Signup2: {
+    screen: Signup2Screen
+  },
+  Welcome: {
+    screen: WelcomeScreen
+  },
+  Home: {
+    screen: HomeScreen
+  },
+  Browse: {
+    screen: BrowseScreen
+  },
+  Search: {
+    screen: SearchScreen
+  },
+  Collection: {
+    screen: CollectionScreen
+  }
+}, {
+  initialRouteName: 'Home'
+})
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
+      <AppNavigator/>
     );
   }
 }
