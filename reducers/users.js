@@ -1,5 +1,6 @@
 let initialState = {
-  isLogin: false
+  isLogin: false,
+  userCreated: false
 }
 
 export default function (state = initialState, action) {
@@ -10,7 +11,10 @@ export default function (state = initialState, action) {
     case 'USER_SIGNUP1':
       return {...state, signup: action.payload}
       break;
-  
+    case 'USER_SIGNUP2':
+      console.log('reducers', action.payload)
+      return {...state, userCreated: action.payload}
+      break;
     default:
     return state
       break;

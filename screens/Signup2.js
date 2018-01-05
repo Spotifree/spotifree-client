@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView, KeyboardAvoidingView } from 'react-native';
 import { connect } from 'react-redux'
+import { NavigationActions } from 'react-navigation'
 
 import { signup } from '../actions/users'
+
+const redirectLogin = NavigationActions.reset({
+  index: 0,
+  actions: [
+    NavigationActions.navigate({ routeName: 'Login'}),
+  ]
+})
 
 class Signup2 extends Component {
 	static navigationOptions = {
@@ -40,6 +48,12 @@ class Signup2 extends Component {
       first_name: this.state.firstname,
       last_name: this.state.lastname
     })
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if(nextProps.userCreated) {
+      this.props.navigation.dispatch(redirectLogin)
+    }
   }
   
 	render() {
@@ -96,7 +110,8 @@ const styles = StyleSheet.create({
 
 function mapStateToProps(state) {
   return {
-    userData: state.userReducers.signup
+    userData: state.userReducers.signup,
+    userCreated: state.userReducers.userCreated    
   }
 }
 

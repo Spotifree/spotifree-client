@@ -108,7 +108,6 @@ const styles = StyleSheet.create({
 })
 
 function mapStateToProps(state) {
-  console.log(state)
   return {
     isLogin: state.userReducers.isLogin
   }
