@@ -19,9 +19,16 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@shoutem/ui": "^0.22.4",
+    "axios": "^0.17.1",
     "expo": "^23.0.4",
     "react": "16.0.0",
     "react-native": "0.50.3",
     "react-navigation": "^1.0.0-beta.23"
+  },
+  "rnpm": {
+    "assets": [
+	    "./public/assets/fonts/"
+    ]
   }
 }
