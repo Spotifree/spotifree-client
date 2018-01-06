@@ -4777,6 +4777,18 @@ react-native-scroller@0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/react-native-scroller/-/react-native-scroller-0.0.6.tgz#dea8c89bd1ca2d2445fbb6b3a90960df6c1767ff"
 
+react-native-search-bar@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-search-bar/-/react-native-search-bar-3.1.0.tgz#48e8cc81e9947e60526cdb1cc2254451c6e598c9"
+  dependencies:
+    prop-types "^15.5.10"
+
+react-native-super-grid@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-super-grid/-/react-native-super-grid-2.0.1.tgz#5220f3003781e67ef7c82c2d53b2fe2e21940093"
+  dependencies:
+    prop-types "^15.6.0"
+
 "react-native-svg@https://github.com/expo/react-native-svg/archive/5.5.1-exp.1.tar.gz":
   version "5.5.1"
   resolved "https://github.com/expo/react-native-svg/archive/5.5.1-exp.1.tar.gz#0c6e373dbe63cfcbdd465f5b2965ebe011c8962f"

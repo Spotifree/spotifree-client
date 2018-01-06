@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Button, TouchableHighlight } from 'react-native';
 import Menu from './Menu'
-
+import SearchBar from 'react-native-search-bar'
+// let cari = <SearchBar
+// 							ref='searchBar'
+// 							placeholder='Cari'
+// 							onChangeText=''
+// 							onSearchButtonPress=''
+// 							onCancelButtonPress=''
+// 						/>
 export default class Search extends Component {
+	
 	static navigationOptions = {
 		title: 'Search',
 		headerLeft: null,
@@ -14,7 +22,7 @@ export default class Search extends Component {
     return (
 			<View style={styles.homeStyle}>
 				<View style={{ flex: 1 }}>
-					<Text style={{ alignSelf: 'center', color: '#FFFFFF' }}>Search Page</Text>
+					
 				</View>
 				<Menu navigation={this.props.navigation}/>
 			</View>
