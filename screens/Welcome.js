@@ -3,17 +3,19 @@ import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 
 export default class Welcome extends Component {
 	static navigationOptions = {
-		headerLeft: null,
-		headerStyle: { height: 24, backgroundColor: '#333333' },
+		header: null,
   }
-	
+  
 	render() {
     return (
 			<View style={styles.container}>
         <Image source={require('../public/assets/img/logo.png')} style={{alignSelf: 'center', width: 250, marginTop: 70}} resizeMode={'contain'}/>
         <View style={{ marginTop: 140 }}>
           <Text style={{ alignSelf: 'center', fontSize: 18, color: '#FFFFFF', fontWeight: '800' }}>Putar Lagu dari Artis favoritmu</Text>
-          <TouchableOpacity style={{ marginTop: 30, backgroundColor: '#09bb06', height: 50, borderRadius: 100, justifyContent: 'center'}}>
+          <TouchableOpacity 
+            style={{ marginTop: 30, backgroundColor: '#09bb06', height: 50, borderRadius: 100, justifyContent: 'center'}}
+            onPress={() => this.props.navigation.navigate('Signup1')}
+          >
             <Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: '800' }}>DAFTAR GRATIS</Text>
           </TouchableOpacity>
           <TouchableOpacity style={{ marginTop: 15, backgroundColor: '#365899', height: 50, borderRadius: 100, justifyContent: 'center'}}>
@@ -22,7 +24,10 @@ export default class Welcome extends Component {
         </View>
         <View style={{ marginTop: 20 }}>
           <Text style={{ alignSelf: 'center', fontSize: 15, color: '#FFFFFF' }}>Sudah menjadi pengguna?</Text>
-          <TouchableOpacity style={{ marginTop: 10, backgroundColor: '#FFFFFF', height: 50, borderRadius: 100, justifyContent: 'center'}}>
+          <TouchableOpacity 
+            style={{ marginTop: 10, backgroundColor: '#FFFFFF', height: 50, borderRadius: 100, justifyContent: 'center'}}
+            onPress={() => this.props.navigation.navigate('Login')}
+          >
             <Text style={{ alignSelf: 'center', fontWeight: '800' }}>MASUK</Text>
           </TouchableOpacity>
         </View>

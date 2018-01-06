@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView, KeyboardAvoidingView } from 'react-native';
+import { connect } from 'react-redux'
 
-export default class Welcome extends Component {
+import { userSignup1 } from '../actions/users'
+
+class Signup1 extends Component {
 	static navigationOptions = {
-		headerLeft: null,
-		headerStyle: { height: 24, backgroundColor: '#333333' },
+		header: null,
   }
 
   constructor() {
@@ -32,7 +34,14 @@ export default class Welcome extends Component {
   }
 
   submitHandle() {
-    console.log(this.state)
+    if(this.state.email && this.state.username && this.state.password) {
+      this.props.signup1({
+        email: this.state.email,
+        username: this.state.username,
+        password: this.state.password
+      })
+      this.props.navigation.navigate('Signup2')
+    }
   }
 	
 	render() {
@@ -96,3 +105,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   }
 })
+
+function mapDispatchToProps(dispatch) {
+  return {
+    signup1: (input) => dispatch(userSignup1(input))
+  }
+}
+
+export default connect(null, mapDispatchToProps)(Signup1)

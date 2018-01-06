@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet,Image, Button, TouchableHighlight, Content, List, ScrollView, ListView, Row, FlatList } from 'react-native';
+import { NavigationActions } from 'react-navigation'
+import { connect } from 'react-redux'
+
 import Menu from './Menu'
+import Login from './Login'
 import Axios from 'axios'
+
+const redirectLogin = NavigationActions.reset({
+  index: 0,
+  actions: [
+    NavigationActions.navigate({ routeName: 'Welcome'}),
+  ]
+})
 
 const mood = [
 	{
@@ -34,20 +45,26 @@ const mood = [
 	}
 
 ]
+
 export default class Home extends Component {
 	static navigationOptions = {
 		title: 'Home',
 		headerLeft: null,
-		headerStyle: { paddingTop: 24, backgroundColor: '#333333', height: 80 },
+		headerStyle: { backgroundColor: '#333333', height: 80 },
 		headerTitleStyle: { alignSelf: 'center', color: '#FFFFFF', fontSize: 15 }
 	}
-	constructor() {
+  
+  constructor() {
 		super()
 			this.state = {
 				dataSource: null
 			}
 	}
 	componentWillMount() {
+    let isLogin = this.props.isLogin
+		if(!isLogin) {
+			this.props.navigation.dispatch(redirectLogin)
+		}
 		Axios.get('http://ec2-34-216-118-112.us-west-2.compute.amazonaws.com/musics')
 		.then(({data}) => {
 			this.setState({
@@ -60,6 +77,7 @@ export default class Home extends Component {
 			console.log('====================================')
 		})
 	}
+
 	render() {
 		let content = null
 		if(this.state.dataSource) {
@@ -115,3 +133,12 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 	}
 })
+
+
+function mapStateToProps(state) {
+	return {
+		isLogin: state.userReducers.isLogin
+	}
+}
+
+export default connect(mapStateToProps, null)(Home)
