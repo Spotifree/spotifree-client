@@ -46,7 +46,7 @@ const mood = [
 
 ]
 
-export default class Home extends Component {
+export class Home extends Component {
 	static navigationOptions = {
 		title: 'Home',
 		headerLeft: null,
