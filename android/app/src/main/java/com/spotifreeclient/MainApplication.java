@@ -3,6 +3,12 @@ package com.spotifreeclient;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.zmxv.RNSound.RNSoundPackage;
+import com.reactnative.photoview.PhotoViewPackage;
+import com.BV.LinearGradient.LinearGradientPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
+import com.tanguyantoine.react.MusicControl;
+import fm.indiecast.rnaudiostreamer.RNAudioStreamerPackage;
 import io.realm.react.RealmReactPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -24,6 +30,12 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNSoundPackage(),
+            new PhotoViewPackage(),
+            new LinearGradientPackage(),
+            new VectorIconsPackage(),
+            new MusicControl(),
+            new RNAudioStreamerPackage(),
             new RealmReactPackage()
       );
     }

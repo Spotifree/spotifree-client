@@ -50,7 +50,7 @@ export class Home extends Component {
 	static navigationOptions = {
 		title: 'Home',
 		headerLeft: null,
-		headerStyle: { backgroundColor: '#333333', height: 80 },
+		headerStyle: { backgroundColor: '#333333', height: 50 },
 		headerTitleStyle: { alignSelf: 'center', color: '#FFFFFF', fontSize: 15 }
 	}
   
@@ -62,9 +62,9 @@ export class Home extends Component {
 	}
 	componentWillMount() {
     let isLogin = this.props.isLogin
-		if(!isLogin) {
-			this.props.navigation.dispatch(redirectLogin)
-		}
+		// if(!isLogin) {
+		// 	this.props.navigation.dispatch(redirectLogin)
+		// }
 		Axios.get('http://ec2-34-216-118-112.us-west-2.compute.amazonaws.com/musics')
 		.then(({data}) => {
 			this.setState({

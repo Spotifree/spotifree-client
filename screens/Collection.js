@@ -6,7 +6,7 @@ export default class MyAccount extends Component {
 	static navigationOptions = {
 		title: 'MyAccount',
 		headerLeft: null,
-		headerStyle: { backgroundColor: '#333333', height: 80 },
+		headerStyle: { backgroundColor: '#333333', height: 50 },
 		headerTitleStyle: { alignSelf: 'center', color: '#FFFFFF', fontSize: 15 }
   }
 	

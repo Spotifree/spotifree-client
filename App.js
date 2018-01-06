@@ -12,6 +12,7 @@ import WelcomeScreen from './screens/Welcome'
 import Signup1Screen from './screens/Signup1'
 import Signup2Screen from './screens/Signup2'
 import LoginScreen from './screens/Login'
+import DetailMusicScreen from './screens/DetailMusic'
 
 const AppNavigator = StackNavigator({
   Login: {
@@ -37,6 +38,9 @@ const AppNavigator = StackNavigator({
   },
   Collection: {
     screen: CollectionScreen
+  },
+  DetailMusic: {
+    screen: DetailMusicScreen
   }
 }, {
   initialRouteName: 'Home'

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, Button, TouchableHighlight, ScrollView, FlatList, Image, ImageBackground } from 'react-native';
 import Menu from './Menu'
 import GridView from 'react-native-super-grid'
+import { Icon } from '@shoutem/ui'
 
 const mood = [
 	{
@@ -50,7 +51,7 @@ export default class Browse extends Component {
 	static navigationOptions = {
 		title: 'Browse',
 		headerLeft: null,
-		headerStyle: { backgroundColor: '#333333', height: 80 },
+		headerStyle: { backgroundColor: '#333333', height: 50 },
 		headerTitleStyle: { alignSelf: 'center', color: '#FFFFFF', fontSize: 15 }
   }
 	
@@ -75,11 +76,11 @@ export default class Browse extends Component {
 							)}
 						/>
 						<Text style={{ color: '#FFFFFF', fontWeight: 'bold', paddingBottom: 20 }}> </Text>
-						<Text style={styles.list}>Tangga Lagu</Text>
-						<Text style={styles.list}>Rilis Baru</Text>
-						<Text style={styles.list}>Podcast</Text>
-						<Text style={styles.list}>Temukan</Text>
-						<Text style={styles.list}>Konser</Text>
+						<Text style={styles.list}><Icon style={{color:'#fff'}} name='equalizer' />  Tangga Lagu</Text>
+						<Text style={styles.list}><Icon style={{color:'#fff'}} name='rsvp' />  Rilis Baru</Text>
+						<Text style={styles.list}><Icon style={{color:'#fff'}} name='rss-feed' />  Podcast</Text>
+						<Text style={styles.list}><Icon style={{color:'#fff'}} name='search' />  Temukan</Text>
+						<Text style={styles.list}><Icon style={{color:'#fff'}} name='receipt' />  Konser</Text>
 						<GridView
 							itemDimension={150}
 							items={mood}
