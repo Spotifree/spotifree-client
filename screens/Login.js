@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView, KeyboardAvoidingView } from 'react-native';
+import { connect } from 'react-redux'
+import axios from 'axios'
+import { NavigationActions } from 'react-navigation'
 
-export default class Welcome extends Component {
+import { login } from '../actions/users'
+
+const redirectHome = NavigationActions.reset({
+  index: 0,
+  actions: [
+    NavigationActions.navigate({ routeName: 'Home'}),
+  ]
+})
+
+class Login extends Component {
 	static navigationOptions = {
-		headerLeft: null,
-		headerStyle: { height: 24, backgroundColor: '#333333' },
+		header: null,
   }
 
   constructor() {
@@ -30,7 +41,16 @@ export default class Welcome extends Component {
   }
 
   submitHandle() {
-    console.log(this.state)
+    this.props.login({
+      username: this.state.username,
+      password: this.state.password
+    })
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if(nextProps.isLogin) {
+      this.props.navigation.dispatch(redirectHome)
+    }
   }
 	
 	render() {
@@ -85,3 +105,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   }
 })
+
+function mapStateToProps(state) {
+  return {
+    isLogin: state.userReducers.isLogin
+  }
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    login: (input) => dispatch(login(input))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login)
