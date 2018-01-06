@@ -34,19 +34,24 @@ const resetCollection = NavigationActions.reset({
 export default class Menu extends Component {
   render() { 
     return (
-      <View style={ styles.menuBar }>
-        <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetHome)}>
-          <Image source={require('../public/assets/img/home.png')} style={styles.iconMenu} resizeMode={'contain'}/>
-        </TouchableOpacity>
-        <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetBrowse)}>
-          <Image source={require('../public/assets/img/browse.png')} style={styles.iconMenu} resizeMode={'contain'}/>
-        </TouchableOpacity>
-        <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetSearch)}>
-          <Image source={require('../public/assets/img/search.png')} style={styles.iconMenu} resizeMode={'contain'}/>
-        </TouchableOpacity>
-        <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetCollection)}>
-          <Image source={require('../public/assets/img/coll.png')} style={styles.iconMenu} resizeMode={'contain'}/>
-        </TouchableOpacity>
+      <View>
+        <View style={ styles.menuBar }>
+          <Text>Musik</Text>
+        </View>
+        <View style={ styles.menuBar }>
+          <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetHome)}>
+            <Image source={require('../public/assets/img/home.png')} style={styles.iconMenu} resizeMode={'contain'}/>
+          </TouchableOpacity>
+          <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetBrowse)}>
+            <Image source={require('../public/assets/img/browse.png')} style={styles.iconMenu} resizeMode={'contain'}/>
+          </TouchableOpacity>
+          <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetSearch)}>
+            <Image source={require('../public/assets/img/search.png')} style={styles.iconMenu} resizeMode={'contain'}/>
+          </TouchableOpacity>
+          <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetCollection)}>
+            <Image source={require('../public/assets/img/coll.png')} style={styles.iconMenu} resizeMode={'contain'}/>
+          </TouchableOpacity>
+        </View>
       </View>
     )
   }
