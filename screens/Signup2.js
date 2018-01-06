@@ -14,8 +14,7 @@ const redirectLogin = NavigationActions.reset({
 
 class Signup2 extends Component {
 	static navigationOptions = {
-		headerLeft: null,
-		headerStyle: { height: 24, backgroundColor: '#333333' },
+		header: null,
   }
 
   constructor() {

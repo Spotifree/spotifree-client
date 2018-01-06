@@ -3,10 +3,9 @@ import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 
 export default class Welcome extends Component {
 	static navigationOptions = {
-		headerLeft: null,
-		headerStyle: { height: 24, backgroundColor: '#333333' },
+		header: null,
   }
-	
+  
 	render() {
     return (
 			<View style={styles.container}>

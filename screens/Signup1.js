@@ -6,8 +6,7 @@ import { userSignup1 } from '../actions/users'
 
 class Signup1 extends Component {
 	static navigationOptions = {
-		headerLeft: null,
-		headerStyle: { height: 24, backgroundColor: '#333333' },
+		header: null,
   }
 
   constructor() {

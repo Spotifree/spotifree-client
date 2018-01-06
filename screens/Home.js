@@ -17,7 +17,7 @@ class Home extends Component {
 	static navigationOptions = {
 		title: 'Home',
 		headerLeft: null,
-		headerStyle: { paddingTop: 24, backgroundColor: '#333333', height: 80 },
+		headerStyle: { backgroundColor: '#333333', height: 80 },
 		headerTitleStyle: { alignSelf: 'center', color: '#FFFFFF', fontSize: 15 }
 	}
 	
