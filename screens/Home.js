@@ -121,14 +121,14 @@ export class Home extends Component {
 			<View style={styles.homeStyle}>
 				<View style={{ flex: 1 }}>
 					<ScrollView>
-						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>Dibuat Untuk Kamu</Text>
+						<Text style={styles.styleTitle}>Dibuat Untuk Kamu</Text>
 						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontSize: 10 }}>Dapatkan rekomendasi yang lebih baik semakin sering kamu mendengarkan</Text>
 						{ content }
-						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>100 % musik bagus</Text>
+						<Text style={styles.styleTitle}>100 % musik bagus</Text>
 						{ content }
-						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>Mood</Text>
+						<Text style={styles.styleTitle}>Mood</Text>
 						{ content }
-						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>Mood</Text>
+						<Text style={styles.styleTitle}>Mood</Text>
 						{ content }
 					</ScrollView>
 				</View>
@@ -147,7 +147,13 @@ const styles = StyleSheet.create({
 	icon: {
 		alignSelf: 'center', 
     height: 30,
-  },
+	},
+	styleTitle: { 
+		alignSelf: 'center', 
+		color: '#FFFFFF', 
+		fontWeight: 'bold', 
+		fontSize: 20 
+	}
 })
 
 

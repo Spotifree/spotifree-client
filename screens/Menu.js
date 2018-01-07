@@ -5,35 +5,6 @@ import Axios from 'axios'
 import realm from '../realm'
 import AudioControls from './AudioControls/MiniAudioControls'
 
-// const resetHome = NavigationActions.reset({
-//   index: 0,
-//   actions: [
-//     NavigationActions.navigate({ routeName: 'Home'}),
-//   ]
-// })
-
-// const resetBrowse = NavigationActions.reset({
-//   index: 0,
-//   actions: [
-//     NavigationActions.navigate({ routeName: 'Browse'}),
-//   ]
-// })
-
-// const resetSearch = NavigationActions.reset({
-//   index: 0,
-//   actions: [
-//     NavigationActions.navigate({ routeName: 'Search'}),
-//   ]
-// })
-
-// const resetCollection = NavigationActions.reset({
-//   index: 0,
-//   actions: [
-//     NavigationActions.navigate({ routeName: 'Collection'}),
-//   ]
-// })
-
-
 export default class Menu extends Component {
   constructor() {
     super();
