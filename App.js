@@ -13,13 +13,9 @@ import Signup1Screen from './screens/Signup1'
 import Signup2Screen from './screens/Signup2'
 import LoginScreen from './screens/Login'
 import DetailMusicScreen from './screens/DetailMusic'
-<<<<<<< HEAD
 import Music from './screens/Menu'
 import PlaylistDetail from './screens/PlaylistDetail'
-=======
-import Menu from './screens/Menu'
 import DerailAccountScreen from './screens/DetailAccount'
->>>>>>> 0bb554e2f852ffcfce410d5beff8f92bd04da18f
 
 const Menus = TabNavigator({
   Home: {
@@ -107,9 +103,6 @@ const AppNavigator = StackNavigator({
 export default class App extends React.Component {
   
   render() {
-    console.log('====================================')
-    console.log('INI DI APP',AppNavigator.router)
-    console.log('====================================')
     return (
       <Provider store={store}>
         <AppNavigator/>

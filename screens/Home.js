@@ -81,25 +81,12 @@ export class Home extends Component {
 		}
 		if(!isLogin && !user) {
 			this.props.navigation.dispatch(redirectLogin)
-		} else {
-			Axios.get('http://ec2-34-216-118-112.us-west-2.compute.amazonaws.com/musics')
-			.then(({data}) => {
-				this.setState({
-					dataSource: data
-				})
-			})
-			.catch(err => {
-				console.log('====================================')
-				console.log(err)
-				console.log('====================================')
-			})
 		}
 	}
 
 	render() {
 		const { navigate } = this.props.navigation
 		let content = null
-		if(this.state.dataSource) {
 			content =
 				<FlatList
 					horizontal={true}
@@ -117,9 +104,6 @@ export class Home extends Component {
 						</TouchableHighlight>
 					)}
 				/>
-		} else {
-			content = <Text style={{ alignSelf: 'center', color: '#FFFFFF' }}>Loading...</Text>
-		}
     return (
 			<View style={styles.homeStyle}>
 				<View style={{ flex: 1 }}>
@@ -128,10 +112,6 @@ export class Home extends Component {
 						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontSize: 10 }}>Dapatkan rekomendasi yang lebih baik semakin sering kamu mendengarkan</Text>
 						{ content }
 						<Text style={styles.styleTitle}>100 % musik bagus</Text>
-						{ content }
-						<Text style={styles.styleTitle}>Mood</Text>
-						{ content }
-						<Text style={styles.styleTitle}>Mood</Text>
 						{ content }
 					</ScrollView>
 				</View>

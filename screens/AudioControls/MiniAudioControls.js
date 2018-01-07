@@ -73,9 +73,6 @@ export default class AudioControls extends Component {
   }
 
   componentWillMount() {
-    console.log('=========DI CONTROL=================')
-    console.log(this.props)
-    console.log('====================================')
     const { playlist, initialTrack } = this.props
     AudioController.init(playlist, initialTrack, this.onChangeStatus, this.updateCurrentTime)
   }
