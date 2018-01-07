@@ -2,9 +2,11 @@ import { createStore, combineReducers, applyMiddleware } from "redux";
 import thunk from 'redux-thunk'
 
 import userReducers from './reducers/users'
+import musicReducers from './reducers/musics'
 
 const appReducers = combineReducers({
-  userReducers
+  userReducers,
+  musicReducers
 })
 
 const middleware = applyMiddleware(thunk)
