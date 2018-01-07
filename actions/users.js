@@ -1,6 +1,8 @@
 import axios from 'axios'
 import jwtDecode from 'jwt-decode'
 
+import realm from '../realm'
+
 export function userLogin(payload) {
   return {
     type: 'USER_LOGIN',
@@ -32,7 +34,17 @@ function getById(token, dispatch) {
     }
   })
   .then(({data}) => {
-    console.log('by id ', data)
+    realm.write(() => {
+      console.log('masuk create')  
+      savedUser = realm.create('User', {
+        userId: data._id,
+        username: data.username,
+        email: data.email,
+        first_name: data.first_name,
+        last_name: data.last_name,
+        access_token: token
+      });
+     });
     dispatch(userLogin(true))
   })
 }

@@ -3,381 +3,381 @@
 
     <item
         is-multidex="false"
-        jar="/home/vb/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_a8da566432be1a49dead21c378ff4ae114ee533f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_adfa89a3d972be0c8d0df7616785edbcfb2cb5e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_3896e96ec9d3de73c8412934fe5346f55668d106.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_cf0bd135f3c294e846ac8e726b0ccd6658a378ee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_f5dcba3b8c39107f02686651681d5e9b6c81fa46.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-vector-icons/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d801740e83d62321832d14bb52dd4a0e56b73f11">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-vector-icons-unspecified_e76a6e97e6faac86e729264dca6272d4eda99413.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_0c9d6ba49929670061ed5cc6267c0ffafbba99c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_1c9db6113c537f4f399138869199916b369d9ab8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_7aeb76a52ac587d5e5882df578c008979ab547c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-sound/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9dd032823a7ca263257578db327a5a023aabfdbd">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-sound-unspecified_e9b42f4931cdc749f727a455c4d805c0035de350.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_6d4caf6333c14bb8900cb141efddfc44c6012454.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-audio-streamer/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1183ca588dd400be5155f3d6f79de50fb5439883">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-audio-streamer-unspecified_4931573c7c81ac4675a75d5822a0bcec6bd10052.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_40dcc08f67e56d70d6d64e29725c72c7a9c593e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_f99779a671376c3c9eb81d6a16cf2d39575cf31f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_6883692be02aa00d2c78af0a4235dd3f5cc275f9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_a23460dd3afe7e6951c331b2fa69c981d4632289.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_04ec1e1d05f12b49ece4a98c48f20c3778b4fdf7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_3ab56c4a52684b3ef09fe4342c0647b8e53b875f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-music-control/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4f343e116681670ef6da6795abcb2ab90fa3af0d">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-music-control-unspecified_1b2342d04debcceb5772bc023ab242af85e57560.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/me.relex/photodraweeview/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e5ceac4d4c5f5559d813fb8e0419203a51b40462">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/me.relex-photodraweeview-1.0.0_7857863bef7f996914b3a667a27df1ecedc68781.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_1531ea7c47938f877ccea98fcc415ee7db4baa43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/realm/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3ac3ffd8d1e0437181cadedb60ae32e90a415d72">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-realm-unspecified_963a70057e7babe118988869cf9f6f37d9638752.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_09f5bd46c8de57484dbb705cf0911fda619f7896.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_1f8bf542ccafff7dd2351c7f490045ef452b46bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_560b8acc8ba7c71b987fc3c65a7c61d327036bcc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6b263bd91a2f6073d36a02875ffaee3fe976b7d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_20f06f132eb84a57db694b39beaec92dbb4619e6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/.gradle/caches/modules-2/files-2.1/org.nanohttpd/nanohttpd/2.2.0/73a02117620b6cc7683a1ed6ae24c2f36e2a715/nanohttpd-2.2.0.jar"
+        jar="/home/vinnix29/.gradle/caches/modules-2/files-2.1/org.nanohttpd/nanohttpd/2.2.0/73a02117620b6cc7683a1ed6ae24c2f36e2a715/nanohttpd-2.2.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="073a02117620b6cc7683a1ed6ae24c2f36e2a715">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/nanohttpd-2.2.0_dd8bb78e5bcc99f9b44cf93b9940d56c4f33e570.jar" />
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/nanohttpd-2.2.0_55c284bb6bbafe9ece0b1f798cd05c32328d8bff.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_237d7bd44bbac5fa8cf87d2830dc08e493746791.jar" />
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_c71947acf79b1ddd37ea1cf13c706af3d2912781.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/realm/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_36aa4928dae439812dfa315558a32b3bc74eba8b.jar" />
+        sha1="2f3620bf1de152b8a99692bf67049c36ec165480">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-realm-unspecified_ba63ec9d38fc2861015c36aba8bf27fdc696a4a5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_47cf5038a6cda934cd1fb08019de67d096395477.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_d0c2d33165c6aea901d9e6aad14371f4ed106fb8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/jars/classes.jar"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="1b6a8c5921674faf26796e185a60d62065b4f157">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.google.android.exoplayer-exoplayer-r2.1.1_e32869bf88e040ea84ae923169f78aa5ab6c21ad.jar" />
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.google.android.exoplayer-exoplayer-r2.1.1_e2c6e78e12b8d08236ec50e6e1b625a6c0f9404c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_a853f5a27c19fcc87451f3748c7b713bd1373c68.jar" />
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_12cff356f83b1889d604e8624a31e600828620b9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_ecf7f548633b7782eebdb0dbaf6d0b057ab746de.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-linear-gradient/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="45aedce68990c4d7388d7df1ff6f98b7490bfa7a">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-linear-gradient-unspecified_f5d15b5c2e26edf24f7ddb54f5828d8edbd09ccd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e485c66db555984e8ec9c9d8606467f74c863cbb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vb/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jar="/home/vinnix29/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_c898bd3624f3d8368ef524f6051d59d2c0eff0bd.jar" />
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_c00eb503227304d091d28ca292dbd23ed7c76c3b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5e4d7f180cb711732158fa982f85bca4a6ffd413">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-vector-icons-unspecified_588a87c216aca0bea934c9cfbbbd4330ed5aacc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_8210de9e15a817db7387d890270d7667ec1ebe07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_1bc6fc0e3a7467c91cca7511ac310a04cdc4d00e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-music-control/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3d7b47533a9a7dc335820931d1e0e752b72d7f10">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-music-control-unspecified_f276f3d037c1ade2574d2aaa1f61f03e21e62368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_f2f38abd49ad03f5687eebb25b282f459c922897.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_ce60a30571dec075747bc0e9b150cbc177557a24.jar" />
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0ec5ba8b36c352c986d9fd6ae26b13f22839d899.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-photo-view/unspecified/jars/classes.jar"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="da910892f1272e4ac298302e4a2e6cfb0108b86c">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-photo-view-unspecified_a044f73168126838a11f623a9c8fc7cdab85ffc7.jar" />
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_1a14e371d4c4c413013e1c745ae548c73ebd04f2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_08cdddbd022280145c62d9269d01383c86565c09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_9b7d4cf9b3845ef2acd27d8e729659264410fe39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_961900223022972f86cab70e87b0ae2bfb73e6da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_2fcc97fa96eab32fa9dea440a61d48618c679d3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-sound/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4f7490b49704a78b2cbecad6e15b172d00de93c5">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-sound-unspecified_3d6f5f19aaed140d639ce15ab0dad29a37fe6545.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_5027ca025f2f513ade77f481bb42513a2d1af2b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_2dc8b799e6e5523efe5c234e7e74293f102dc2bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_59b09cc2969a749bee37ab59856bc947f25f376b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_75d9c9f54f303405561d4262311a2299b884a4f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_702d2df20cc3c28ae67013d3981a49c29b73c42d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-audio-streamer/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ff3acce111972972e39861df9f5aeb091c83fee">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-audio-streamer-unspecified_6d4afd0346475fad737b7a0c7f10ba1305cc6ae5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-photo-view/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d1cc4edd6b554de72844036eb39a63e87391abae">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-photo-view-unspecified_651001765102b6253828ead8a7e4dfcab1fa6e60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-linear-gradient/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="87d22d94114758f81aeac6263538f0854387d687">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/spotifreeclient-react-native-linear-gradient-unspecified_d758b70721ba826d90bdf80cc6fe0478720dd36c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/me.relex/photodraweeview/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5ceac4d4c5f5559d813fb8e0419203a51b40462">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/me.relex-photodraweeview-1.0.0_ffac90a526f2b6676b78d08b842b00aec0154037.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_5a89539abb1d5266a7d1894ba333b6ab56186b1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_542dc881f4cc76fe958d34dc9020886e289c82ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_1208be5b71a955509e9a63e43632c8f4c3efc690.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_ddc1cfde0d4d861aa0447b5cf76d33498c5a24c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_8ff4c10da03289291207146420256872b43b570c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_d393eaca0007e38f28acb261c6307ea4db5ef737.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_62c3bf78ab7b9bdc0d22d5b9fc112887dc68a91d.jar" />
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_883eee048f7fe2b935fbad89feb1e66c9a3f0080.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_0baeed80ab4b3989b1feba0940f43fbbf3833f5a.jar" />
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_44616aa8ecccd4e22f84c920ef1fcb86626c2e4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_f3e42a9bfe3fbffceb1321e25bb79087f2506048.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_0fed3b45b36b487018bf08a600ce6bf16855e9d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_2bbb37ec6ae308e1f0744820a957cf899bda9902.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_806cc41a3932f5353e3d70ca9a9a5d16bef77618.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_ec168525fb4b76172f558731da2dfa1a64877887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_618706f7f68edf055d239bf6baedb1a59fddffdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/vinnix29/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_7b45bda6f85523aba301cb97a18b86d8e5b51a5b.jar" />
     </item>
 
 </items>

@@ -548,13 +548,13 @@
                     "endOffset": 157
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 280,
+                        "startOffset": 55,
                         "endColumn": 106,
-                        "endOffset": 382
+                        "endOffset": 157
                     }
                 }
             },
@@ -567,13 +567,13 @@
                     "endOffset": 266
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 387,
+                        "startOffset": 162,
                         "endColumn": 108,
-                        "endOffset": 491
+                        "endOffset": 266
                     }
                 }
             },
@@ -586,13 +586,13 @@
                     "endOffset": 390
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 496,
+                        "startOffset": 271,
                         "endColumn": 123,
-                        "endOffset": 615
+                        "endOffset": 390
                     }
                 }
             },
@@ -605,13 +605,13 @@
                     "endOffset": 492
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 620,
+                        "startOffset": 395,
                         "endColumn": 101,
-                        "endOffset": 717
+                        "endOffset": 492
                     }
                 }
             },
@@ -624,13 +624,13 @@
                     "endOffset": 601
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 722,
+                        "startOffset": 497,
                         "endColumn": 108,
-                        "endOffset": 826
+                        "endOffset": 601
                     }
                 }
             },
@@ -643,13 +643,13 @@
                     "endOffset": 687
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 831,
+                        "startOffset": 606,
                         "endColumn": 85,
-                        "endOffset": 912
+                        "endOffset": 687
                     }
                 }
             },
@@ -662,13 +662,13 @@
                     "endOffset": 792
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 917,
+                        "startOffset": 692,
                         "endColumn": 104,
-                        "endOffset": 1017
+                        "endOffset": 792
                     }
                 }
             },
@@ -681,13 +681,13 @@
                     "endOffset": 909
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1022,
+                        "startOffset": 797,
                         "endColumn": 116,
-                        "endOffset": 1134
+                        "endOffset": 909
                     }
                 }
             },
@@ -696,17 +696,17 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 914,
-                    "endColumn": 83,
-                    "endOffset": 993
+                    "endColumn": 80,
+                    "endOffset": 990
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1139,
-                        "endColumn": 83,
-                        "endOffset": 1218
+                        "startOffset": 914,
+                        "endColumn": 80,
+                        "endOffset": 990
                     }
                 }
             },
@@ -714,18 +714,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 998,
-                    "endColumn": 103,
-                    "endOffset": 1097
+                    "startOffset": 995,
+                    "endColumn": 80,
+                    "endOffset": 1071
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1223,
-                        "endColumn": 103,
-                        "endOffset": 1322
+                        "startOffset": 995,
+                        "endColumn": 80,
+                        "endOffset": 1071
                     }
                 }
             },
@@ -733,18 +733,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1102,
-                    "endColumn": 108,
-                    "endOffset": 1206
+                    "startOffset": 1076,
+                    "endColumn": 83,
+                    "endOffset": 1155
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1327,
-                        "endColumn": 108,
-                        "endOffset": 1431
+                        "startOffset": 1076,
+                        "endColumn": 83,
+                        "endOffset": 1155
                     }
                 }
             },
@@ -752,18 +752,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1211,
-                    "endColumn": 98,
-                    "endOffset": 1305
+                    "startOffset": 1160,
+                    "endColumn": 103,
+                    "endOffset": 1259
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1436,
-                        "endColumn": 98,
-                        "endOffset": 1530
+                        "startOffset": 1160,
+                        "endColumn": 103,
+                        "endOffset": 1259
                     }
                 }
             },
@@ -771,18 +771,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1310,
-                    "endColumn": 105,
-                    "endOffset": 1411
+                    "startOffset": 1264,
+                    "endColumn": 108,
+                    "endOffset": 1368
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1535,
-                        "endColumn": 105,
-                        "endOffset": 1636
+                        "startOffset": 1264,
+                        "endColumn": 108,
+                        "endOffset": 1368
                     }
                 }
             },
@@ -790,18 +790,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1416,
-                    "endColumn": 109,
-                    "endOffset": 1521
+                    "startOffset": 1373,
+                    "endColumn": 98,
+                    "endOffset": 1467
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1641,
-                        "endColumn": 109,
-                        "endOffset": 1746
+                        "startOffset": 1373,
+                        "endColumn": 98,
+                        "endOffset": 1467
                     }
                 }
             },
@@ -809,18 +809,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1526,
-                    "endColumn": 106,
-                    "endOffset": 1628
+                    "startOffset": 1472,
+                    "endColumn": 105,
+                    "endOffset": 1573
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1751,
-                        "endColumn": 106,
-                        "endOffset": 1853
+                        "startOffset": 1472,
+                        "endColumn": 105,
+                        "endOffset": 1573
                     }
                 }
             },
@@ -828,18 +828,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1633,
-                    "endColumn": 121,
-                    "endOffset": 1750
+                    "startOffset": 1578,
+                    "endColumn": 109,
+                    "endOffset": 1683
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1858,
-                        "endColumn": 121,
-                        "endOffset": 1975
+                        "startOffset": 1578,
+                        "endColumn": 109,
+                        "endOffset": 1683
                     }
                 }
             },
@@ -847,18 +847,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1755,
-                    "endColumn": 97,
-                    "endOffset": 1848
+                    "startOffset": 1688,
+                    "endColumn": 106,
+                    "endOffset": 1790
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1980,
-                        "endColumn": 97,
-                        "endOffset": 2073
+                        "startOffset": 1688,
+                        "endColumn": 106,
+                        "endOffset": 1790
                     }
                 }
             },
@@ -866,18 +866,208 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1853,
-                    "endColumn": 100,
-                    "endOffset": 1949
+                    "startOffset": 1795,
+                    "endColumn": 121,
+                    "endOffset": 1912
                 },
                 "from": {
-                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-cs/values-cs.xml",
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1795,
+                        "endColumn": 121,
+                        "endOffset": 1912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1917,
+                    "endColumn": 97,
+                    "endOffset": 2010
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1917,
+                        "endColumn": 97,
+                        "endOffset": 2010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2015,
+                    "endColumn": 81,
+                    "endOffset": 2092
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 81,
+                        "endOffset": 132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2097,
+                    "endColumn": 73,
+                    "endOffset": 2166
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 137,
+                        "endColumn": 73,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2171,
+                    "endColumn": 71,
+                    "endOffset": 2238
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 211,
+                        "endColumn": 71,
+                        "endOffset": 278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2243,
+                    "endColumn": 67,
+                    "endOffset": 2306
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 67,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2311,
+                    "endColumn": 81,
+                    "endOffset": 2388
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endColumn": 81,
+                        "endOffset": 428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2393,
+                    "endColumn": 75,
+                    "endOffset": 2464
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 433,
+                        "endColumn": 75,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2469,
+                    "endColumn": 68,
+                    "endOffset": 2533
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r2.1.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 509,
+                        "endColumn": 68,
+                        "endOffset": 573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2538,
+                    "endColumn": 81,
+                    "endOffset": 2615
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2078,
+                        "startOffset": 2015,
+                        "endColumn": 81,
+                        "endOffset": 2092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2620,
+                    "endColumn": 100,
+                    "endOffset": 2716
+                },
+                "from": {
+                    "file": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2097,
                         "endColumn": 100,
-                        "endOffset": 2174
+                        "endOffset": 2193
                     }
                 }
             }
