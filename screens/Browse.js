@@ -50,11 +50,19 @@ const mood = [
 ]
 export default class Browse extends Component {
 	static navigationOptions = {
+		tabBarLabel: null,
+		tabBarIcon: () => (
+      <Image
+        source={require('../public/assets/img/browse.png')}
+				style={styles.icon}
+				resizeMode={'contain'}
+      />
+    ),																																			
 		title: 'Browse',
 		headerLeft: null,
 		headerStyle: { backgroundColor: '#333333', height: 50 },
 		headerTitleStyle: { alignSelf: 'center', color: '#FFFFFF', fontSize: 15 }
-  }
+	}
 	
 	render() {
     return (
@@ -146,5 +154,8 @@ const styles = StyleSheet.create({
 		fontSize: 15,
 		fontWeight: 'bold',
 		fontFamily: 'Proxima Nova'
-	}
+	},icon: {
+		alignSelf: 'center', 
+    height: 30,
+  },
 })

@@ -4,33 +4,33 @@ import { NavigationActions } from 'react-navigation'
 import Axios from 'axios'
 import AudioControls from './AudioControls/MiniAudioControls'
 
-const resetHome = NavigationActions.reset({
-  index: 0,
-  actions: [
-    NavigationActions.navigate({ routeName: 'Home'}),
-  ]
-})
+// const resetHome = NavigationActions.reset({
+//   index: 0,
+//   actions: [
+//     NavigationActions.navigate({ routeName: 'Home'}),
+//   ]
+// })
 
-const resetBrowse = NavigationActions.reset({
-  index: 0,
-  actions: [
-    NavigationActions.navigate({ routeName: 'Browse'}),
-  ]
-})
+// const resetBrowse = NavigationActions.reset({
+//   index: 0,
+//   actions: [
+//     NavigationActions.navigate({ routeName: 'Browse'}),
+//   ]
+// })
 
-const resetSearch = NavigationActions.reset({
-  index: 0,
-  actions: [
-    NavigationActions.navigate({ routeName: 'Search'}),
-  ]
-})
+// const resetSearch = NavigationActions.reset({
+//   index: 0,
+//   actions: [
+//     NavigationActions.navigate({ routeName: 'Search'}),
+//   ]
+// })
 
-const resetCollection = NavigationActions.reset({
-  index: 0,
-  actions: [
-    NavigationActions.navigate({ routeName: 'Collection'}),
-  ]
-})
+// const resetCollection = NavigationActions.reset({
+//   index: 0,
+//   actions: [
+//     NavigationActions.navigate({ routeName: 'Collection'}),
+//   ]
+// })
 
 
 export default class Menu extends Component {
@@ -92,22 +92,8 @@ export default class Menu extends Component {
     return (
       <View>
         <View style={ styles.menuBar }>
-        <TouchableOpacity onPress={() => navigate('DetailMusic')}>
-          {listMusic}
-        </TouchableOpacity>
-        </View>
-        <View style={ styles.menuBar }>
-          <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetHome)}>
-            <Image source={require('../public/assets/img/home.png')} style={styles.iconMenu} resizeMode={'contain'}/>
-          </TouchableOpacity>
-          <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetBrowse)}>
-            <Image source={require('../public/assets/img/browse.png')} style={styles.iconMenu} resizeMode={'contain'}/>
-          </TouchableOpacity>
-          <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetSearch)}>
-            <Image source={require('../public/assets/img/search.png')} style={styles.iconMenu} resizeMode={'contain'}/>
-          </TouchableOpacity>
-          <TouchableOpacity style={ styles.menuButton } onPress={() => this.props.navigation.dispatch(resetCollection)}>
-            <Image source={require('../public/assets/img/coll.png')} style={styles.iconMenu} resizeMode={'contain'}/>
+          <TouchableOpacity onPress={() => navigate('DetailMusic')}>
+            {listMusic}
           </TouchableOpacity>
         </View>
       </View>
@@ -119,7 +105,9 @@ const styles = StyleSheet.create({
 	menuBar: { 
 		flexDirection: 'row', 
     backgroundColor: '#333333',
-    height: 60
+    height: 60,
+
+    borderBottomWidth: 1.5,
 	},
 	menuButton: { 
     flex: 1,
