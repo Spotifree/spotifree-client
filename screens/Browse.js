@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, Button, TouchableHighlight, ScrollView, FlatList, Image, ImageBackground } from 'react-native';
 import Menu from './Menu'
 import GridView from 'react-native-super-grid'
-import { Icon } from '@shoutem/ui'
+import { Icon as UiIcon } from '@shoutem/ui'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 const mood = [
 	{
@@ -60,7 +61,7 @@ export default class Browse extends Component {
 			<View style={styles.homeStyle}>
 				<View style={{ flex: 1 }}>
 					<ScrollView>
-						<Text style={{ alignItems: 'center', alignSelf: 'center', paddingLeft: 18, paddingTop: 10, color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>Playlist seru Spotifree siap memeriahkan hari Sabtu kamu</Text>
+						<Text style={{ alignItems: 'center', alignSelf: 'center', paddingLeft: 18, paddingTop: 10, color: '#FFFFFF',fontFamily: 'Proxima Nova', fontWeight: 'bold', fontSize: 20 }}>Playlist seru Spotifree siap memeriahkan hari Sabtu kamu</Text>
 						<FlatList
 							horizontal={true}
 							data={mood}
@@ -76,11 +77,11 @@ export default class Browse extends Component {
 							)}
 						/>
 						<Text style={{ color: '#FFFFFF', fontWeight: 'bold', paddingBottom: 20 }}> </Text>
-						<Text style={styles.list}><Icon style={{color:'#fff'}} name='equalizer' />  Tangga Lagu</Text>
-						<Text style={styles.list}><Icon style={{color:'#fff'}} name='rsvp' />  Rilis Baru</Text>
-						<Text style={styles.list}><Icon style={{color:'#fff'}} name='rss-feed' />  Podcast</Text>
-						<Text style={styles.list}><Icon style={{color:'#fff'}} name='search' />  Temukan</Text>
-						<Text style={styles.list}><Icon style={{color:'#fff'}} name='receipt' />  Konser</Text>
+						<Text style={styles.list}><Icon size={20} color='#515151' name='line-chart' />  Tangga Lagu</Text>
+						<Text style={styles.list}><Icon size={20} color='#515151' name='calendar-check-o' />  Rilis Baru</Text>
+						<Text style={styles.list}><Icon size={20} color='#515151' name='podcast' />  Podcast</Text>
+						<Text style={styles.list}><Icon size={20} color='#515151' name='rss' />  Temukan</Text>
+						<Text style={styles.list}><Icon size={20} color='#515151' name='film' />  Konser</Text>
 						<GridView
 							itemDimension={150}
 							items={mood}
@@ -141,7 +142,9 @@ const styles = StyleSheet.create({
 		color: '#FFFFFF',
 		paddingBottom: 15 ,
 		paddingLeft: 20,
+		paddingRight: 20,
 		fontSize: 15,
-		fontWeight: 'bold'
+		fontWeight: 'bold',
+		fontFamily: 'Proxima Nova'
 	}
 })

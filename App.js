@@ -56,11 +56,30 @@ export default class App extends React.Component {
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+SetDefaultFontFamily = () => {
+  let components = [Text, TextInput]
+
+  const customProps = {
+      style: {
+          fontFamily: "Proxima Nova"
+      }
+  }
+
+  for(let i = 0; i < components.length; i++) {
+      const TextRender = components[i].prototype.render;
+      const initialDefaultProps = components[i].prototype.constructor.defaultProps;
+      components[i].prototype.constructor.defaultProps = {
+          ...initialDefaultProps,
+          ...customProps,
+      }
+      components[i].prototype.render = function render() {
+          let oldProps = this.props;
+          this.props = { ...this.props, style: [customProps.style, this.props.style] };
+          try {
+              return TextRender.apply(this, arguments);
+          } finally {
+              this.props = oldProps;
+          }
+      };
+  }
+}
