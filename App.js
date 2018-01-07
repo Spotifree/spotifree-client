@@ -14,7 +14,8 @@ import Signup2Screen from './screens/Signup2'
 import LoginScreen from './screens/Login'
 import DetailMusicScreen from './screens/DetailMusic'
 import Menu from './screens/Menu'
-import DerailAccountScreen from './screens/DetailAccount'
+import DetailAccountScreen from './screens/DetailAccount'
+import Music from './screens/Menu'
 
 const Menus = TabNavigator({
   Home: {
@@ -90,7 +91,7 @@ const AppNavigator = StackNavigator({
     screen: DetailMusicScreen
   },
   DetailAccount: {
-    screen: DerailAccountScreen
+    screen: DetailAccountScreen
   }
 }, {
   initialRouteName: 'Home'
