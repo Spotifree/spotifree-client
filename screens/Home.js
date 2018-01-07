@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet,Image, Button, TouchableHighlight, Content, List, ScrollView, ListView, Row, FlatList } from 'react-native';
 import { NavigationActions } from 'react-navigation'
 import { connect } from 'react-redux'
+import Axios from 'axios'
 
+import realm from '../realm'
 import Menu from './Menu'
 import Login from './Login'
-import Axios from 'axios'
 
 const redirectLogin = NavigationActions.reset({
   index: 0,
@@ -61,21 +62,24 @@ export class Home extends Component {
 			}
 	}
 	componentWillMount() {
+		let user = realm.objects('User')[0]
+		console.log(user)
     let isLogin = this.props.isLogin
-		// if(!isLogin) {
-		// 	this.props.navigation.dispatch(redirectLogin)
-		// }
-		Axios.get('http://ec2-34-216-118-112.us-west-2.compute.amazonaws.com/musics')
-		.then(({data}) => {
-			this.setState({
-				dataSource: data
+		if(!isLogin && !user) {
+			this.props.navigation.dispatch(redirectLogin)
+		} else {
+			Axios.get('http://ec2-34-216-118-112.us-west-2.compute.amazonaws.com/musics')
+			.then(({data}) => {
+				this.setState({
+					dataSource: data
+				})
 			})
-		})
-		.catch(err => {
-			console.log('====================================')
-			console.log(err)
-			console.log('====================================')
-		})
+			.catch(err => {
+				console.log('====================================')
+				console.log(err)
+				console.log('====================================')
+			})
+		}
 	}
 
 	render() {
