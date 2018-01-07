@@ -7,6 +7,7 @@ import Axios from 'axios'
 import realm from '../realm'
 import Menu from './Menu'
 import Login from './Login'
+import { getAllMusics } from '../actions/musics'
 
 const redirectLogin = NavigationActions.reset({
   index: 0,
@@ -71,8 +72,13 @@ export class Home extends Component {
 	}
 	componentWillMount() {
 		let user = realm.objects('User')[0]
-		console.log(user)
-    let isLogin = this.props.isLogin
+		let musics = realm.objects('Music')
+		let isLogin = this.props.isLogin
+		console.log(user, 'HIHI')
+		console.log(musics, 'HAHA')
+		if(!musics) {
+			this.props.getAllMusics()
+		}
 		if(!isLogin && !user) {
 			this.props.navigation.dispatch(redirectLogin)
 		} else {
@@ -91,17 +97,8 @@ export class Home extends Component {
 	}
 
 	render() {
-		console.log('====================================')
-		console.log('APA INI', this.props.navigation)
-		console.log('====================================')
 		let content = null
 		if(this.state.dataSource) {
-
-		console.log('====================================')
-		console.log(
-			this.state.dataSource
-		)
-		console.log('====================================')
 			content =
 				<FlatList
 					horizontal={true}
@@ -124,14 +121,14 @@ export class Home extends Component {
 			<View style={styles.homeStyle}>
 				<View style={{ flex: 1 }}>
 					<ScrollView>
-						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>Dibuat Untuk Kamu</Text>
+						<Text style={styles.styleTitle}>Dibuat Untuk Kamu</Text>
 						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontSize: 10 }}>Dapatkan rekomendasi yang lebih baik semakin sering kamu mendengarkan</Text>
 						{ content }
-						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>100 % musik bagus</Text>
+						<Text style={styles.styleTitle}>100 % musik bagus</Text>
 						{ content }
-						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>Mood</Text>
+						<Text style={styles.styleTitle}>Mood</Text>
 						{ content }
-						<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 20 }}>Mood</Text>
+						<Text style={styles.styleTitle}>Mood</Text>
 						{ content }
 					</ScrollView>
 				</View>
@@ -150,7 +147,13 @@ const styles = StyleSheet.create({
 	icon: {
 		alignSelf: 'center', 
     height: 30,
-  },
+	},
+	styleTitle: { 
+		alignSelf: 'center', 
+		color: '#FFFFFF', 
+		fontWeight: 'bold', 
+		fontSize: 20 
+	}
 })
 
 
@@ -159,5 +162,10 @@ function mapStateToProps(state) {
 		isLogin: state.userReducers.isLogin
 	}
 }
+const mapDispatchToProps = (dispatch) => {
+	return {
+		getAllMusics: () => dispatch(getAllMusics())
+	}
+} 
 
-export default connect(mapStateToProps, null)(Home)
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
