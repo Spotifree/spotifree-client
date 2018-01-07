@@ -135,6 +135,7 @@ export class Home extends Component {
 						{ content }
 					</ScrollView>
 				</View>
+				<Menu navigation={this.props.navigation}/>
 			</View>
 		)
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, TextInput, View } from 'react-native';
 import { StackNavigator, TabNavigator } from 'react-navigation'
 import { Provider } from 'react-redux'
 
@@ -56,7 +56,7 @@ const Menus = TabNavigator({
   }  
 },{
   initialRouteName: 'Home'
-})
+},{ lazy: true })
 const AppNavigator = StackNavigator({
   Login: {
     screen: LoginScreen
@@ -90,7 +90,11 @@ const AppNavigator = StackNavigator({
 })
 
 export default class App extends React.Component {
+  
   render() {
+    console.log('====================================')
+    console.log('INI DI APP',AppNavigator.router)
+    console.log('====================================')
     return (
       <Provider store={store}>
         <AppNavigator/>

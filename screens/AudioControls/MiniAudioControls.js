@@ -168,7 +168,6 @@ const styles = StyleSheet.create({
         paddingLeft: 5,
         paddingRight: 5,
         justifyContent: 'center',
-        borderBottomWidth: 1.5,
         borderColor: '#000'
     },
     detailContainer: {
