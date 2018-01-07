@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import Axios from 'axios'
 
 import realm from '../realm'
-import Menu from './Menu'
+import Music from './Menu'
 import Login from './Login'
 
 const redirectLogin = NavigationActions.reset({
@@ -135,7 +135,7 @@ export class Home extends Component {
 						{ content }
 					</ScrollView>
 				</View>
-				<Menu navigation={this.props.navigation}/>
+				<Music navigation={this.props.navigation}/>
 			</View>
 		)
   }

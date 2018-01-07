@@ -33,7 +33,7 @@ import AudioControls from './AudioControls/MiniAudioControls'
 // })
 
 
-export default class Menu extends Component {
+export default class Music extends Component {
   constructor() {
     super();
     this.state = {

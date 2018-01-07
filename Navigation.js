@@ -13,7 +13,7 @@ import Signup1Screen from './screens/Signup1'
 import Signup2Screen from './screens/Signup2'
 import LoginScreen from './screens/Login'
 import DetailMusicScreen from './screens/DetailMusic'
-import Music from './screens/Menu';
+import Menu from './screens/Menu'
 
 const Menus = TabNavigator({
   Home: {
@@ -76,9 +76,6 @@ const AppNavigator = StackNavigator({
   Browse: {
     screen: BrowseScreen
   },
-  Music: {
-    screen: Music
-  },
   Search: {
     screen: SearchScreen
   },
@@ -92,44 +89,13 @@ const AppNavigator = StackNavigator({
   initialRouteName: 'Home'
 })
 
-export default class App extends React.Component {
+export default class Navigation extends React.Component {
   
   render() {
-    console.log('====================================')
-    console.log('INI DI APP',AppNavigator.router)
-    console.log('====================================')
     return (
       <Provider store={store}>
         <AppNavigator/>
       </Provider>
     );
-  }
-}
-
-SetDefaultFontFamily = () => {
-  let components = [Text, TextInput]
-
-  const customProps = {
-      style: {
-          fontFamily: "Proxima Nova"
-      }
-  }
-
-  for(let i = 0; i < components.length; i++) {
-      const TextRender = components[i].prototype.render;
-      const initialDefaultProps = components[i].prototype.constructor.defaultProps;
-      components[i].prototype.constructor.defaultProps = {
-          ...initialDefaultProps,
-          ...customProps,
-      }
-      components[i].prototype.render = function render() {
-          let oldProps = this.props;
-          this.props = { ...this.props, style: [customProps.style, this.props.style] };
-          try {
-              return TextRender.apply(this, arguments);
-          } finally {
-              this.props = oldProps;
-          }
-      };
   }
 }
