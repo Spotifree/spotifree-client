@@ -1,6 +1,8 @@
 import Realm from 'realm'
 
-class User {}  
+class User {}
+class Musics {}  
+
 User.schema = {  
   name: 'User',
   primaryKey: 'userId',
@@ -13,7 +15,20 @@ User.schema = {
     access_token: 'string'
   },
 };
+Music.schema = {  
+  name: 'Music',
+  primaryKey: 'key',
+  properties: {
+    key: 'string',
+    title: 'string',
+    author: 'string',
+    url: 'string',
+    path: 'string',
+    thumbnail: 'string',
+    genre: 'string'
+  },
+};
 
-const realm = new Realm({schema: [User]});
+const realm = new Realm({schema: [User, Music]});
 
 export default realm
