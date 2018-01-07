@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView, KeyboardAvoidingView } from 'react-native';
+import { ActivityIndicator, View, Text, StyleSheet, TouchableOpacity, TextInput, ScrollView, KeyboardAvoidingView } from 'react-native';
 import { connect } from 'react-redux'
 import axios from 'axios'
 import { NavigationActions } from 'react-navigation'
@@ -25,6 +25,7 @@ class Login extends Component {
       password: '',
       backgroundColor1: '#E6E6E6',
       backgroundColor2: '#E6E6E6',
+      loading: false
     }
   }
 
@@ -41,6 +42,7 @@ class Login extends Component {
   }
 
   submitHandle() {
+    this.setState({loading: true})
     this.props.login({
       username: this.state.username,
       password: this.state.password
@@ -59,30 +61,37 @@ class Login extends Component {
         style={styles.container}
         behavior="padding"
       >
-			<ScrollView style={styles.container}>
-        <Text style={{alignSelf: 'center', fontSize: 35, fontWeight: '600', color: '#FFFFFF', marginTop: 70}}>Masuk</Text>
-        <Text style={{ marginTop: 20, fontWeight: '800', fontSize: 15, color: '#FFFFFF' }}>Nama pengguna</Text>
-        <TextInput
-          style={{ fontSize: 20, paddingHorizontal: 10, height: 50, backgroundColor: this.state.backgroundColor1, borderRadius: 3, marginTop: 3 }}
-          underlineColorAndroid='transparent'
-          keyboardType='email-address'
-          onFocus={() => this.onFocus('1')}
-          onBlur={() => this.onBlur('1')}
-          onChangeText={(username) => this.setState({username})}
-        />
-        <Text style={{ fontWeight: '800', fontSize: 15, color: '#FFFFFF', marginTop: 20 }}>Kata sandi</Text>
-        <TextInput
-          style={{ fontSize: 20, paddingHorizontal: 10, height: 50, backgroundColor: this.state.backgroundColor2, borderRadius: 3, marginTop: 3 }}
-          underlineColorAndroid='transparent'
-          secureTextEntry={true}
-          onFocus={() => this.onFocus('2')}
-          onBlur={() => this.onBlur('2')}
-          onChangeText={(password) => this.setState({password})}
-        />
-        <TouchableOpacity style={ styles.button } onPress={() => this.submitHandle()}>
-          <Text style={{ fontSize: 18, alignSelf: 'center', fontWeight: '600', color: '#FFFFFF' }}>MASUK</Text>
-        </TouchableOpacity>
-			</ScrollView>
+        {
+          this.state.loading ?
+          <View style={{flex: 1, justifyContent: 'center', flexDirection: 'row', alignItems: 'center'}}>
+            <ActivityIndicator size="large" color="#FFFFFF" />
+          </View>
+          :
+          <ScrollView style={styles.container}>
+            <Text style={{alignSelf: 'center', fontSize: 35, fontWeight: '600', color: '#FFFFFF', marginTop: 70}}>Masuk</Text>
+            <Text style={{ marginTop: 20, fontWeight: '800', fontSize: 15, color: '#FFFFFF' }}>Nama pengguna</Text>
+            <TextInput
+              style={{ fontSize: 20, paddingHorizontal: 10, height: 50, backgroundColor: this.state.backgroundColor1, borderRadius: 3, marginTop: 3 }}
+              underlineColorAndroid='transparent'
+              keyboardType='email-address'
+              onFocus={() => this.onFocus('1')}
+              onBlur={() => this.onBlur('1')}
+              onChangeText={(username) => this.setState({username})}
+            />
+            <Text style={{ fontWeight: '800', fontSize: 15, color: '#FFFFFF', marginTop: 20 }}>Kata sandi</Text>
+            <TextInput
+              style={{ fontSize: 20, paddingHorizontal: 10, height: 50, backgroundColor: this.state.backgroundColor2, borderRadius: 3, marginTop: 3 }}
+              underlineColorAndroid='transparent'
+              secureTextEntry={true}
+              onFocus={() => this.onFocus('2')}
+              onBlur={() => this.onBlur('2')}
+              onChangeText={(password) => this.setState({password})}
+            />
+            <TouchableOpacity style={ styles.button } onPress={() => this.submitHandle()}>
+              <Text style={{ fontSize: 18, alignSelf: 'center', fontWeight: '600', color: '#FFFFFF' }}>MASUK</Text>
+            </TouchableOpacity>
+          </ScrollView>
+        }
       </KeyboardAvoidingView>
 		)
   }

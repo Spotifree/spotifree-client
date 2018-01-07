@@ -68,12 +68,12 @@
         "source": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
         "source": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",

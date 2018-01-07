@@ -4377,6 +4377,12 @@ readable-stream@~1.1.8, readable-stream@~1.1.9:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
+realm-query@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/realm-query/-/realm-query-0.0.6.tgz#51e23351774fb8730289de028667e14eef98e163"
+  dependencies:
+    lodash "^4.17.4"
+
 realm@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/realm/-/realm-2.1.1.tgz#74f7843809ca189b67ae39faea222ccc2fddba4c"
