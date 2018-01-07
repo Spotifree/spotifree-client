@@ -56,12 +56,12 @@
         "source": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
@@ -120,12 +120,12 @@
         "source": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/skip_forward_30.png",
         "source": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/exploded-aar/spotifreeclient/react-native-music-control/unspecified/res/drawable-xxhdpi-v4/skip_forward_30.png"
+    },
+    {
+        "merged": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
