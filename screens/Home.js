@@ -97,17 +97,8 @@ export class Home extends Component {
 	}
 
 	render() {
-		console.log('====================================')
-		console.log('APA INI', this.props.navigation)
-		console.log('====================================')
 		let content = null
 		if(this.state.dataSource) {
-
-		console.log('====================================')
-		console.log(
-			this.state.dataSource
-		)
-		console.log('====================================')
 			content =
 				<FlatList
 					horizontal={true}
