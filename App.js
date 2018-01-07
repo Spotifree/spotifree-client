@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { StackNavigator } from 'react-navigation'
+import { StackNavigator, TabNavigator } from 'react-navigation'
 import { Provider } from 'react-redux'
 
 import store from './store'
@@ -13,7 +13,49 @@ import Signup1Screen from './screens/Signup1'
 import Signup2Screen from './screens/Signup2'
 import LoginScreen from './screens/Login'
 import DetailMusicScreen from './screens/DetailMusic'
+import Menu from './screens/Menu'
 
+const Menus = TabNavigator({
+  Home: {
+    screen: HomeScreen
+  },
+  Browse: {
+    screen: BrowseScreen
+  },
+  Search: {
+    screen: SearchScreen
+  },
+  Collection: {
+    screen: CollectionScreen
+  }
+},{
+  tabBarPosition: 'bottom',
+  tabBarOptions: {
+    renderIndicator: () => null,
+    drawerLabel: () => null,
+    showIcon: true,
+    showLabel: false,
+    activeTintColor: '#fff',
+    style: {
+      backgroundColor: '#333333',
+      height: 60,
+      padding: 0,
+      margin: 0
+    },
+    iconStyle: {
+      height: 30,
+    },
+    tabStyle: {
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    labelStyle: {
+      margin:0
+    }
+  }  
+},{
+  initialRouteName: 'Home'
+})
 const AppNavigator = StackNavigator({
   Login: {
     screen: LoginScreen
@@ -28,7 +70,7 @@ const AppNavigator = StackNavigator({
     screen: WelcomeScreen
   },
   Home: {
-    screen: HomeScreen
+    screen: Menus
   },
   Browse: {
     screen: BrowseScreen

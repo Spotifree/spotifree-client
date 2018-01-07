@@ -49,6 +49,14 @@ const mood = [
 
 export class Home extends Component {
 	static navigationOptions = {
+		tabBarLabel: null,
+		tabBarIcon: () => (
+      <Image
+        source={require('../public/assets/img/home.png')}
+				style={styles.icon}
+				resizeMode={'contain'}
+      />
+    ),																																			
 		title: 'Home',
 		headerLeft: null,
 		headerStyle: { backgroundColor: '#333333', height: 50 },
@@ -83,6 +91,9 @@ export class Home extends Component {
 	}
 
 	render() {
+		console.log('====================================')
+		console.log('APA INI', this.props.navigation)
+		console.log('====================================')
 		let content = null
 		if(this.state.dataSource) {
 
@@ -124,7 +135,6 @@ export class Home extends Component {
 						{ content }
 					</ScrollView>
 				</View>
-				<Menu navigation={this.props.navigation}/>
 			</View>
 		)
   }
@@ -135,7 +145,11 @@ const styles = StyleSheet.create({
 		backgroundColor: '#1a1a1a', 
 		flex: 1,
 		justifyContent: 'center',
-	}
+	},
+	icon: {
+		alignSelf: 'center', 
+    height: 30,
+  },
 })
 
 
