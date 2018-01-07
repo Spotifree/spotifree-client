@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import Axios from 'axios'
 
 import realm from '../realm'
-import Music from './Menu'
+import Menu from './Menu'
 import Login from './Login'
 import { getAllMusics } from '../actions/musics'
 
@@ -72,7 +72,7 @@ export class Home extends Component {
 	}
 	componentWillMount() {
 		let user = realm.objects('User')[0]
-		let musics = realm.objects('Music')
+		let musics = realm.objects('Music')[0]
 		let isLogin = this.props.isLogin
 		console.log(user, 'HIHI')
 		console.log(musics, 'HAHA')
@@ -132,7 +132,7 @@ export class Home extends Component {
 						{ content }
 					</ScrollView>
 				</View>
-				<Music navigation={this.props.navigation}/>
+				<Menu navigation={this.props.navigation}/>
 			</View>
 		)
   }

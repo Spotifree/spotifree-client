@@ -93,7 +93,7 @@ class AudioController {
 		this.musicControlReset()
 		this.currentAudio = audio
 		//Verificar se o arquivo de áudio já foi baixado para definir player
-		if (this.currentAudio.path) {
+		if (this.currentAudio.path !== '') {
 			//Áudio offline, this.player será instância do Sound
 			this.type = 'offline'
 
