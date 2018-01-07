@@ -16,7 +16,15 @@ export default class Search extends Component {
 			autoCorrect={false}
 			padding={0}
 			returnKeyType={'search'}
-		/>
+		/>,
+		tabBarLabel: null,
+		tabBarIcon: () => (
+			<Image
+				source={require('../public/assets/img/search.png')}
+				style={styles.icon}
+				resizeMode={'contain'}
+			/>
+		)
   }
 	
 	render() {
@@ -46,5 +54,8 @@ const styles = StyleSheet.create({
 		width: 100,
 		tintColor: '#fff',
 		alignItems: 'center'
+  }, icon: {
+		alignSelf: 'center', 
+    height: 30,
   }
 })

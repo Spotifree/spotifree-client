@@ -44,6 +44,7 @@ const Menus = TabNavigator({
     },
     iconStyle: {
       height: 30,
+      width: '100%'
     },
     tabStyle: {
       justifyContent: 'center',
