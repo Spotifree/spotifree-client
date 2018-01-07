@@ -97,6 +97,7 @@ export class Home extends Component {
 	}
 
 	render() {
+		const { navigate } = this.props.navigation
 		let content = null
 		if(this.state.dataSource) {
 			content =
@@ -105,13 +106,15 @@ export class Home extends Component {
 					data={mood}
 					keyExtractor = { (item, i) => i}
 					renderItem = { ({item}) =>(
-						<View style={{padding: 10}}> 
-							<Image
-								style={{width: 150, height: 150}}
-								source={{uri: item.thumbnail}}
-							/>
-							<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 15}}>{item.judul}</Text>
-						</View>
+						<TouchableHighlight onPress={ () => navigate('PlaylistDetail', {detail: item})}>
+							<View style={{padding: 10}}> 
+								<Image
+									style={{width: 150, height: 150}}
+									source={{uri: item.thumbnail}}
+								/>
+								<Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 15}}>{item.judul}</Text>
+							</View>
+						</TouchableHighlight>
 					)}
 				/>
 		} else {
