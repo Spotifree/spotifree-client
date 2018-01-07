@@ -1,7 +1,6 @@
 import Realm from 'realm'
 
 class User {}
-class Musics {}  
 
 User.schema = {  
   name: 'User',
@@ -15,6 +14,7 @@ User.schema = {
     access_token: 'string'
   },
 };
+class Music {}
 Music.schema = {  
   name: 'Music',
   primaryKey: 'key',

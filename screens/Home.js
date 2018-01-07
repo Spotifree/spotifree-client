@@ -7,6 +7,7 @@ import Axios from 'axios'
 import realm from '../realm'
 import Menu from './Menu'
 import Login from './Login'
+import { getAllMusics } from '../actions/musics'
 
 const redirectLogin = NavigationActions.reset({
   index: 0,
@@ -71,8 +72,13 @@ export class Home extends Component {
 	}
 	componentWillMount() {
 		let user = realm.objects('User')[0]
-		console.log(user)
-    let isLogin = this.props.isLogin
+		let musics = realm.objects('Music')
+		let isLogin = this.props.isLogin
+		console.log(user, 'HIHI')
+		console.log(musics, 'HAHA')
+		if(!musics) {
+			this.props.getAllMusics()
+		}
 		if(!isLogin && !user) {
 			this.props.navigation.dispatch(redirectLogin)
 		} else {
@@ -159,5 +165,10 @@ function mapStateToProps(state) {
 		isLogin: state.userReducers.isLogin
 	}
 }
+const mapDispatchToProps = (dispatch) => {
+	return {
+		getAllMusics: () => dispatch(getAllMusics())
+	}
+} 
 
-export default connect(mapStateToProps, null)(Home)
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
