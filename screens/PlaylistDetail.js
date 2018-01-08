@@ -84,7 +84,7 @@ export default class PlaylistDetail extends Component {
       result = <Spinner />
     }
     return (
-      <ScrollView style={{paddingTop: 5}} {...driver.scrollViewProps}>
+      <ScrollView style={{paddingTop: 5, backgroundColor: '#000'}} {...driver.scrollViewProps}>
         <HeroHeader driver={driver}>
           <Image
             styleName="large-banner"
