@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/home/vinnix29/hacktiv8/spotifree/spotifree-client/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/vb/Project/phase3/week2/spotifree-client/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/home/vb/Project/phase3/week2/spotifree-client/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }

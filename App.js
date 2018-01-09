@@ -104,9 +104,6 @@ const AppNavigator = StackNavigator({
 export default class App extends React.Component {
   
   render() {
-    console.log('====================================')
-    console.log('INI DI APP',AppNavigator.router)
-    console.log('====================================')
     return (
       <Provider store={store}>
         <AppNavigator/>

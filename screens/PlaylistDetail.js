@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ScrollView } from 'react-native';
-
+import { ScrollView, StyleSheet, TouchableOpacity, TouchableHighlight, FlatList } from 'react-native';
+import  realm from '../realm'
 import {
   Parallax,
   HeroHeader,
@@ -15,7 +15,8 @@ import {
   Title,
   Text,
   Subtitle,
-  View,
+  View, 
+  Spinner
 } from '@shoutem/ui';
 
 export default class PlaylistDetail extends Component {
@@ -24,34 +25,78 @@ export default class PlaylistDetail extends Component {
 		headerLeft: null,
 		headerStyle: { backgroundColor: '#333333', height: 50 },
 		headerTitleStyle: { alignSelf: 'center', color: '#FFFFFF', fontSize: 15 }
-	}
-  getRestaurant() {
-    return {
-      name: "Gaspar Brasserie",
-      address: "185 Sutter St, San Francisco, CA 94109",
-      url: "gasparbrasserie.com",
-      image: { "url": "https://shoutem.github.io/restaurants/restaurant-1.jpg"},
-      mail: "info@gasparbrasserie.com"
-    };
   }
-
+  constructor() {
+    super()
+    this.state = {
+      playlist : null
+    }
+  }
+  componentWillMount() {
+    let detail = this.props.navigation.state.params.detail
+    let genre = null
+    if(detail.judul === 'Semangat Pagi') {
+      genre = 'pop'
+    } else if (detail.judul === 'Mager Parah') {
+      genre = 'rock'
+    } else if (detail.judul === 'Kopikustik') {
+      genre = 'rock'
+    } else if (detail.judul === 'Santai Sejenak') {
+      genre = 'pop'
+    } else if (detail.judul === 'Yang Penting Happy') {
+      genre = 'hip hop'
+    } else if (detail.judul === 'Calm Vibes') {
+      genre = 'pop'
+    } else if (detail.judul === 'Game On') {
+      genre = 'remix'
+    }else {
+      genre = null
+    }
+    let playlist = realm.objects('Music').filtered('genre = "' + genre + '"')
+    this.setState({
+      playlist: playlist
+    })
+    console.log('====================================')
+    console.log(playlist)
+    console.log('====================================')
+  }
   render() {
-    const restaurant = this.getRestaurant();
+    let detail = this.props.navigation.state.params.detail
     const driver = new ScrollDriver();
+    let result = null
+    if(this.state.playlist) {
+      result = <FlatList
+      data={this.state.playlist}
+      keyExtractor = { (item, i) => i}
+      renderItem = { ({item}) =>(
+        <TouchableHighlight>
+          <View style={{padding: 10, flexDirection: 'row'}}>
+            <Image
+              style={{width: 150, height: 150}}
+              source={{uri: item.thumbnail}}
+            />
+            <Text style={{ alignSelf: 'center', color: '#FFFFFF', fontWeight: 'bold', fontSize: 15}}>{item.judul}</Text>
+          </View>
+        </TouchableHighlight>
+      )}
+    />
+    } else {
+      result = <Spinner />
+    }
     return (
-      <ScrollView {...driver.scrollViewProps}>
+      <ScrollView style={{paddingTop: 5, backgroundColor: '#000'}} {...driver.scrollViewProps}>
         <HeroHeader driver={driver}>
           <Image
             styleName="large-banner"
-            source={{ uri: restaurant.image.url }}
-            key={restaurant.name}
+            source={{ uri: detail.thumbnail }}
+            key={detail.judul}
           >
             <Tile>
               <Parallax driver={driver} scrollSpeed={1.2} header>
                 <FadeIn inputRange={[-20, 0]} driver={driver}>
                   <FadeOut inputRange={[100, 150]} driver={driver}>
-                    <Title>{restaurant.name}</Title>
-                    <Subtitle>{restaurant.address}</Subtitle>
+                    <Title>{detail.judul}</Title>
+                    <Subtitle>{} playlist</Subtitle>
                   </FadeOut>
                 </FadeIn>
               </Parallax>
@@ -66,19 +111,28 @@ export default class PlaylistDetail extends Component {
             padding: 15,
           }}
         >
-          <Text>
-            Gaspar is a delightful French restaurant in
-            San Francisco\’s Financial District that is inspired by the romantic,
-            bustling Paris of old. Located near famed Union Square, our richly-designed
-            interiors make you feel as if you are truly in Paris and provide the perfect
-            setting for enjoying our exquisite classic and modern French fare such as Duck
-            Leg Confit and always popular Steak Frites. Gaspar offers two stories of dining
-            in addition to full bars both upstairs and downstairs and an exclusive room
-            reserved to hold the largest selection of Cognac in San Francisco.
-            In addition to our all day menu, we offer live jazz music on Saturdays.
-          </Text>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={this.onPress}
+          >
+            <Text style={{ color: 'white', fontSize: 20 }}> Play </Text>
+          </TouchableOpacity>
+          {result}
         </View>
       </ScrollView>
     );
   }
 }
+const styles = StyleSheet.create({
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#45cf76',
+    padding: 10,
+    width: '50%',
+    alignSelf: 'center',
+		fontWeight: 'bold', 
+    fontSize: 20 ,
+    borderRadius: 5,
+    marginBottom: 20
+  }
+})
